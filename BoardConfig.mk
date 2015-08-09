@@ -20,9 +20,7 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-candy-linux-gnueabi/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-CANDY-linux-gnueabi-
- 
+
 # Rom Optimization
 USE_GRAPHITE := true
 USE_FSTRICT_FLAGS := true
